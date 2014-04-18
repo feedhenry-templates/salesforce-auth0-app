@@ -1,0 +1,9 @@
+</div>
+<div ng-controller="OppListCtrl">
+  <ul class="scroll-list">
+    <li ng-repeat="opp in opps" class="scroll-list-item">
+      <span class="elipsis"><a href="" ng-click="goToOpp(opp)">{{opp.Name}}</a></span>
+      <aside class="footnote">{{opp.StageName}}</aside>
+    </li>
+  </ul>
+</div>
