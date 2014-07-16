@@ -18,7 +18,7 @@ angular.module('appControllers', [
   })
   .controller('RootCtrl', function(auth, $scope, $location, CurrentUser, APILogin) {
     if (!auth.isAuthenticated) {
-      $location.path('/login');
+      $location.path('/root.html');
       return;
     }
     $scope.auth = auth;

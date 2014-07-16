@@ -1,7 +1,0 @@
-{
-  "id": "salesforce_auth0_project_client",
-  "name": "Salesforce Auth0 Project-client",
-  "type": "client_hybrid",
-  "repoUrl": "git://github.com/feedhenry-sample-apps/salesforce-auth0-project-client.git",
-  "repoBranch": "refs/heads/master"
-}
